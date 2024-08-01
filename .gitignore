@@ -1,0 +1,25 @@
+# Django
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Environment files
+.env
+
+# IDE-specific
+.idea/
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Ignore all migration files
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Ignore all migration directories
+**/migrations/
